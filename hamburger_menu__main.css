@@ -1,0 +1,29 @@
+.nav1{
+    background-color: black;
+    width: 100%;
+    height: 40px;
+}
+
+.nav2 li{
+    display: inline-block;
+    padding: 8px 30px;
+    margin: 0;
+    color: #FFFFFF;
+    position: relative;
+    top: 2px;
+    left: 10px;
+}
+
+.nav2 li:hover{
+    background-color: orange;
+    border-radius: 10px;
+    color: black;
+}
+
+.menu{
+    visibility: hidden;
+}
+
+.nav3{
+    display: none;
+}

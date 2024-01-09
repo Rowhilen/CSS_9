@@ -1,0 +1,32 @@
+@media screen and (max-width: 550px) {
+    .nav1{
+        display: none;
+    }
+
+    .menu{
+        visibility: visible;
+        text-align: center;
+    }
+
+    .nav3{
+        display: inline;
+    }
+
+    .nav4 li{
+        text-align: center;
+        list-style: none;
+        color: #FFFFFF;
+        position: relative;
+        right: 20px;
+        padding-top: 10px;
+        width: 100%;
+        height: 50px;
+        background-color: black;
+    
+    }
+
+    .nav4 li:hover{
+        background-color: orange;
+        color: black;
+    }
+}
